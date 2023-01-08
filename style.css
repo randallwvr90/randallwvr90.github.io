@@ -15,10 +15,12 @@ h1{
 
 h2{
     color: slategray;
+    text-align: center;
 }
 
 h3{
-    color: tomato;
+    color: rgb(144, 38, 22);
+    text-align: center;
 }
 
 img {
@@ -28,5 +30,17 @@ img {
 }
 
 section{
-    background-color: cadetblue;
+    background-color: rgb(175, 236, 239);
 }
+
+p{
+    text-align: center;
+}
+
+ul {
+    margin-left: 30%;
+    width: 50%;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
