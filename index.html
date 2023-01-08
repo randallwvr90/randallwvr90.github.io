@@ -1,16 +1,102 @@
 <html>
     <head>
+        <meta charset="UTF-8">
         <!-- head has metadata about the page -->
         <!-- the title sets the name of the tab -->
         <title>My Home Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- the content you see on the page -->
-        <!-- the p tag is for "paragraph"-->
-        <h1>Welcome to my web page!</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+
+
+
+        <div class="container">
+            <!-- first row -->
+            <div class="row">
+                <!-- tell the number of columns -->
+                <div class="col-md-12">
+                    <h1>Welcome to my Home Page!</h1>
+                </div>
+            </div>
+            <!-- second row -->
+            <div class="row">
+                <div class="col-md-3">
+                    Despise me, if I do not. Three great ones of the city,
+                    In personal suit to make me his lieutenant,
+                    Off-capp'd to him: and, by the faith of man,
+                    I know my price, I am worth no worse a place:
+                    But he; as loving his own pride and purposes,
+                    Evades them, with a bombast circumstance
+                    Horribly stuff'd with epithets of war;
+                </div>
+                <div class="col-md-3">
+                    This argues fruitfulness and liberal heart:
+                    Hot, hot, and moist: this hand of yours requires
+                    A sequester from liberty, fasting and prayer,
+                    Much castigation, exercise devout;
+                    For here's a young and sweating devil here,
+                    That commonly rebels. 'Tis a good hand,
+                    A frank one.
+                </div>
+                <div class="col-md-3">
+                    Ay, if you dare do yourself a profit and a right.
+                    He sups to-night with a harlotry, and thither will I
+                    go to him: he knows not yet of his horrorable
+                    fortune. If you will watch his going thence, which
+                    I will fashion to fall out between twelve and one,
+                    you may take him at your pleasure: I will be near
+                    to second your attempt, and he shall fall between
+                    us. 
+                </div>
+            </div>
+            <!-- third row -->
+
+            <!-- fourth row -->
+        </div>
+
         <p>
             Check out some other content in the following pages:<br>
-            <a href=headings.html>Headings Page</a>
+            <button type="button" class="btn btn-primary" href=headings.html>Headings Page</button>
             <a href=textdemo.html>Text Demo Page</a>
         </p>
     </body>
