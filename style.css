@@ -1,0 +1,32 @@
+.alignCenter{
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    background-color:wheat;
+    color:black;
+}
+
+h2{
+    color: slategray;
+}
+
+h3{
+    color: tomato;
+}
+
+img {
+    box-shadow: 10px 10px 5px black;
+    max-width: 50%;
+    max-height: auto;
+}
+
+section{
+    background-color: cadetblue;
+}
